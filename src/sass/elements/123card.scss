@@ -1,0 +1,28 @@
+.container-123{
+  background-color: #333;
+  border: solid 1px $gray-300;
+  border-radius: 3px;
+  padding: 15px 0px;
+  .p-0{
+    padding: 0px !important;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .logo{
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container-123{
+    .p-0{
+      margin: 0px;
+      margin-bottom: 15px;
+    }
+    .logo{
+      margin-top: 10px;
+    }
+  }
+}
